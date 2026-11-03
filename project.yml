@@ -19,7 +19,7 @@ targets:
     info:
       path: TodoLock/Info.plist
       properties:
-        CFBundleDisplayName: 할일락
+        CFBundleDisplayName: Todo Lock
         UILaunchScreen: {}
         NSRemindersFullAccessUsageDescription: 할 일을 미리 알림에 저장하고 위젯에 보여주기 위해 필요해요.
         NSCalendarsFullAccessUsageDescription: 일정을 캘린더에 표시하고 위젯에 보여주기 위해 필요해요.
@@ -34,7 +34,7 @@ targets:
     info:
       path: TodoLockWidget/Info.plist
       properties:
-        CFBundleDisplayName: 할일락 위젯
+        CFBundleDisplayName: Todo Lock Widget
         NSRemindersFullAccessUsageDescription: 위젯에 오늘 할 일을 보여주기 위해 필요해요.
         NSCalendarsFullAccessUsageDescription: 위젯에 일정을 보여주기 위해 필요해요.
         NSExtension:

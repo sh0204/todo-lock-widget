@@ -40,7 +40,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("할일락")
+            .navigationTitle("Todo Lock")
             .toolbar {
                 Button { state.showQuickAdd = true } label: { Image(systemName: "plus.circle.fill").font(.title2) }
                     .tint(Theme.event)
