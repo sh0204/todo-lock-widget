@@ -9,12 +9,7 @@
 
 <br/>
 
-![iOS](https://img.shields.io/badge/iOS-18%2B-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-5.10-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-WidgetKit-0A84FF?style=for-the-badge&logo=swift&logoColor=white)
-![EventKit](https://img.shields.io/badge/EventKit-Reminders%20%C2%B7%20Calendar-7D61ED?style=for-the-badge)
-![App Intents](https://img.shields.io/badge/App%20Intents-Interactive-FF9429?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-34C759?style=for-the-badge)
+<img src="docs/images/stack.svg" alt="iOS 18+ · Swift 5.10 · SwiftUI · WidgetKit · EventKit · App Intents · MIT" height="32"/>
 
 [**🎨 Figma 디자인 보기**](https://www.figma.com/design/HdceIoyzN6fgrN3c40I4yz) ·
 [⚡️ 코딩 없이 쓰기](docs/SHORTCUT_SETUP.md) ·
