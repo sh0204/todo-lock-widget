@@ -1,0 +1,41 @@
+# XcodeGen 설정 — `xcodegen generate` 로 TodoLock.xcodeproj 생성
+name: TodoLock
+options:
+  bundleIdPrefix: com.sh0204
+  deploymentTarget:
+    iOS: "18.0"
+  developmentLanguage: ko
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""   # 본인 Apple 팀 ID 입력
+targets:
+  TodoLock:
+    type: application
+    platform: iOS
+    sources: [TodoLock, Shared]
+    info:
+      path: TodoLock/Info.plist
+      properties:
+        CFBundleDisplayName: 할일락
+        UILaunchScreen: {}
+        NSRemindersFullAccessUsageDescription: 할 일을 미리 알림에 저장하고 위젯에 보여주기 위해 필요해요.
+        NSCalendarsFullAccessUsageDescription: 일정을 캘린더에 표시하고 위젯에 보여주기 위해 필요해요.
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [todolock]
+    dependencies:
+      - target: TodoLockWidget
+  TodoLockWidget:
+    type: app-extension
+    platform: iOS
+    sources: [TodoLockWidget, Shared]
+    info:
+      path: TodoLockWidget/Info.plist
+      properties:
+        CFBundleDisplayName: 할일락 위젯
+        NSRemindersFullAccessUsageDescription: 위젯에 오늘 할 일을 보여주기 위해 필요해요.
+        NSCalendarsFullAccessUsageDescription: 위젯에 일정을 보여주기 위해 필요해요.
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
