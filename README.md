@@ -2,10 +2,10 @@
 
 <img src="docs/images/banner.png" alt="Todo Lock Widget" width="100%" />
 
-# 할일락 · Todo Lock Widget
+# Todo Lock Widget
 
 **잠금화면에서 한 번 탭 → 할 일 입력 → 미리 알림 + 캘린더에 자동 표시**<br/>
-아이폰 기본 앱(미리 알림 · 캘린더) 위에 얹는 가장 빠른 할 일 위젯
+아이폰 기본 앱(미리 알림 · 캘린더) 가장 빠른 할 일 위젯
 
 <br/>
 
